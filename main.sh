@@ -66,7 +66,7 @@ show_menus() {
 # Exit when user the user select 3 form the menu option.
 read_options(){
 	local choice
-	read -p "Enter choice [ 1 - 2] : " choice
+	read -p "Enter choice [ 1 - 3] : " choice
 	case $choice in
 		1) one ;;
 		2) two ;;
